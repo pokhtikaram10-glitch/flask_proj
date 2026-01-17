@@ -12,5 +12,9 @@ def index():
 def about():
     return "my name is tikaram"
 
+@app.route("/contact")
+def contact():
+    return "9800000000"
+
 if __name__ == "__main__":
     app.run(debug=True)
